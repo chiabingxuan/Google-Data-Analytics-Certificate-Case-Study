@@ -116,14 +116,12 @@ The bar charts below show the 20 most popular starting stations, among both casu
 
 **Key Findings**: Note that casual riders most frequently start their rides along Grand Ave, Dusable Lake Shore Drive, Michigan Ave and Clark St. On the other hand, annual members are more likely to begin their rides along Kingsbury St, Clinton St, Wells St and Elm St. This suggests that Cyclistic bike usage is most pronounced in these areas. Despite these differences, there are also some commonalities between the two bar charts. The following are starting stations which are popular among both casual riders and annual members:
 
-```{r echo = F, results = "asis"}
-library("knitr")
-station_name <- c("Streeter Dr & Grand Ave", "Wells St & Concord Ln",  "Clark St & Elm St", "Wells St & Elm St")
-casual_position <- c("1st", "11th", "16th", "18th")
-member_position <- c("13th", "4th", "3rd", "6th")
-table <- data.frame(station_name, casual_position, member_position)
-kable(table)
-```
+| Station Name | Popularity among Casual Riders | Popularity among Annual Members |
+| --- | --- | --- |
+| Streeter Dr & Grand Ave | 1st | 13th |
+| Wells St & Concord Ln | 11th | 4th |
+| Clark St & Elm St | 16th | 3rd |
+| Wells St & Elm St | 18th | 6th |
 
 The pie charts below show the proportion of rideable types used, for both casual riders and annual members:
 
