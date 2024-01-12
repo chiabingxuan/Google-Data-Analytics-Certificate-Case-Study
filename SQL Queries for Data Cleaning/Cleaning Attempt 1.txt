@@ -1,0 +1,417 @@
+SELECT
+  TRIM(ride_id) AS ride_id,
+  TRIM(rideable_type) AS rideable_type,
+  CAST(started_at AS datetime) AS started_at,
+  CAST(ended_at AS datetime) AS ended_at,
+  TRIM(start_station_name) AS start_station_name,
+  CAST(start_station_id AS string) AS start_station_id,
+  TRIM(end_station_name) AS end_station_name,
+  CAST(end_station_id AS string) AS end_station_id,
+  TRIM(member_casual) AS member_casual,
+  date_diff(ended_at, started_at, minute) AS ride_length_in_mins,
+  EXTRACT(DAYOFWEEK FROM started_at) AS day_of_week,
+  EXTRACT(MONTH FROM started_at) AS month
+
+FROM
+  `bing-xuans-project.cyclistic_data.202301-divvy-tripdata`
+
+WHERE
+  ride_id is NOT NULL
+  AND rideable_type is NOT NULL
+  AND started_at is NOT NULL
+  AND ended_at is NOT NULL
+  AND start_station_name is NOT NULL
+  AND start_station_id is NOT NULL
+  AND end_station_name is NOT NULL
+  AND end_station_id is NOT NULL
+  AND start_lat is NOT NULL
+  AND start_lng is NOT NULL
+  AND end_lat is NOT NULL
+  AND end_lng is NOT NULL
+  AND member_casual is NOT NULL
+  AND date_diff(ended_at, started_at, minute) > 0
+
+UNION ALL
+
+SELECT
+  TRIM(ride_id) AS ride_id,
+  TRIM(rideable_type) AS rideable_type,
+  CAST(started_at AS datetime) AS started_at,
+  CAST(ended_at AS datetime) AS ended_at,
+  TRIM(start_station_name) AS start_station_name,
+  CAST(start_station_id AS string),
+  TRIM(end_station_name) AS end_station_name,
+  CAST(end_station_id AS string),
+  TRIM(member_casual) AS member_casual,
+  date_diff(ended_at, started_at, minute) AS ride_length_in_mins,
+  EXTRACT(DAYOFWEEK FROM started_at) AS day_of_week,
+  EXTRACT(MONTH FROM started_at) AS month
+
+FROM
+  `bing-xuans-project.cyclistic_data.202302-divvy-tripdata`
+
+WHERE
+  ride_id is NOT NULL
+  AND rideable_type is NOT NULL
+  AND started_at is NOT NULL
+  AND ended_at is NOT NULL
+  AND start_station_name is NOT NULL
+  AND start_station_id is NOT NULL
+  AND end_station_name is NOT NULL
+  AND end_station_id is NOT NULL
+  AND start_lat is NOT NULL
+  AND start_lng is NOT NULL
+  AND end_lat is NOT NULL
+  AND end_lng is NOT NULL
+  AND member_casual is NOT NULL
+  AND date_diff(ended_at, started_at, minute) > 0
+
+UNION ALL
+
+SELECT
+  TRIM(ride_id) AS ride_id,
+  TRIM(rideable_type) AS rideable_type,
+  CAST(started_at AS datetime) AS started_at,
+  CAST(ended_at AS datetime) AS ended_at,
+  TRIM(start_station_name) AS start_station_name,
+  CAST(start_station_id AS string),
+  TRIM(end_station_name) AS end_station_name,
+  CAST(end_station_id AS string),
+  TRIM(member_casual) AS member_casual,
+  date_diff(ended_at, started_at, minute) AS ride_length_in_mins,
+  EXTRACT(DAYOFWEEK FROM started_at) AS day_of_week,
+  EXTRACT(MONTH FROM started_at) AS month
+
+FROM
+  `bing-xuans-project.cyclistic_data.202303-divvy-tripdata`
+
+WHERE
+  ride_id is NOT NULL
+  AND rideable_type is NOT NULL
+  AND started_at is NOT NULL
+  AND ended_at is NOT NULL
+  AND start_station_name is NOT NULL
+  AND start_station_id is NOT NULL
+  AND end_station_name is NOT NULL
+  AND end_station_id is NOT NULL
+  AND start_lat is NOT NULL
+  AND start_lng is NOT NULL
+  AND end_lat is NOT NULL
+  AND end_lng is NOT NULL
+  AND member_casual is NOT NULL
+  AND date_diff(ended_at, started_at, minute) > 0
+
+UNION ALL
+
+SELECT
+  TRIM(ride_id) AS ride_id,
+  TRIM(rideable_type) AS rideable_type,
+  CAST(started_at AS datetime) AS started_at,
+  CAST(ended_at AS datetime) AS ended_at,
+  TRIM(start_station_name) AS start_station_name,
+  CAST(start_station_id AS string),
+  TRIM(end_station_name) AS end_station_name,
+  CAST(end_station_id AS string),
+  TRIM(member_casual) AS member_casual,
+  date_diff(ended_at, started_at, minute) AS ride_length_in_mins,
+  EXTRACT(DAYOFWEEK FROM started_at) AS day_of_week,
+  EXTRACT(MONTH FROM started_at) AS month
+
+FROM
+  `bing-xuans-project.cyclistic_data.202304-divvy-tripdata`
+
+WHERE
+  ride_id is NOT NULL
+  AND rideable_type is NOT NULL
+  AND started_at is NOT NULL
+  AND ended_at is NOT NULL
+  AND start_station_name is NOT NULL
+  AND start_station_id is NOT NULL
+  AND end_station_name is NOT NULL
+  AND end_station_id is NOT NULL
+  AND start_lat is NOT NULL
+  AND start_lng is NOT NULL
+  AND end_lat is NOT NULL
+  AND end_lng is NOT NULL
+  AND member_casual is NOT NULL
+  AND date_diff(ended_at, started_at, minute) > 0
+
+UNION ALL
+
+SELECT
+  TRIM(ride_id) AS ride_id,
+  TRIM(rideable_type) AS rideable_type,
+  CAST(started_at AS datetime) AS started_at,
+  CAST(ended_at AS datetime) AS ended_at,
+  TRIM(start_station_name) AS start_station_name,
+  CAST(start_station_id AS string),
+  TRIM(end_station_name) AS end_station_name,
+  CAST(end_station_id AS string),
+  TRIM(member_casual) AS member_casual,
+  date_diff(ended_at, started_at, minute) AS ride_length_in_mins,
+  EXTRACT(DAYOFWEEK FROM started_at) AS day_of_week,
+  EXTRACT(MONTH FROM started_at) AS month
+
+FROM
+  `bing-xuans-project.cyclistic_data.202305-divvy-tripdata`
+
+WHERE
+  ride_id is NOT NULL
+  AND rideable_type is NOT NULL
+  AND started_at is NOT NULL
+  AND ended_at is NOT NULL
+  AND start_station_name is NOT NULL
+  AND start_station_id is NOT NULL
+  AND end_station_name is NOT NULL
+  AND end_station_id is NOT NULL
+  AND start_lat is NOT NULL
+  AND start_lng is NOT NULL
+  AND end_lat is NOT NULL
+  AND end_lng is NOT NULL
+  AND member_casual is NOT NULL
+  AND date_diff(ended_at, started_at, minute) > 0
+
+UNION ALL
+
+SELECT
+  TRIM(ride_id) AS ride_id,
+  TRIM(rideable_type) AS rideable_type,
+  CAST(started_at AS datetime) AS started_at,
+  CAST(ended_at AS datetime) AS ended_at,
+  TRIM(start_station_name) AS start_station_name,
+  CAST(start_station_id AS string),
+  TRIM(end_station_name) AS end_station_name,
+  CAST(end_station_id AS string),
+  TRIM(member_casual) AS member_casual,
+  date_diff(ended_at, started_at, minute) AS ride_length_in_mins,
+  EXTRACT(DAYOFWEEK FROM started_at) AS day_of_week,
+  EXTRACT(MONTH FROM started_at) AS month
+
+FROM
+  `bing-xuans-project.cyclistic_data.202306-divvy-tripdata`
+
+WHERE
+  ride_id is NOT NULL
+  AND rideable_type is NOT NULL
+  AND started_at is NOT NULL
+  AND ended_at is NOT NULL
+  AND start_station_name is NOT NULL
+  AND start_station_id is NOT NULL
+  AND end_station_name is NOT NULL
+  AND end_station_id is NOT NULL
+  AND start_lat is NOT NULL
+  AND start_lng is NOT NULL
+  AND end_lat is NOT NULL
+  AND end_lng is NOT NULL
+  AND member_casual is NOT NULL
+  AND date_diff(ended_at, started_at, minute) > 0
+
+UNION ALL
+
+SELECT
+  TRIM(ride_id) AS ride_id,
+  TRIM(rideable_type) AS rideable_type,
+  CAST(started_at AS datetime) AS started_at,
+  CAST(ended_at AS datetime) AS ended_at,
+  TRIM(start_station_name) AS start_station_name,
+  CAST(start_station_id AS string),
+  TRIM(end_station_name) AS end_station_name,
+  CAST(end_station_id AS string),
+  TRIM(member_casual) AS member_casual,
+  date_diff(ended_at, started_at, minute) AS ride_length_in_mins,
+  EXTRACT(DAYOFWEEK FROM started_at) AS day_of_week,
+  EXTRACT(MONTH FROM started_at) AS month
+
+FROM
+  `bing-xuans-project.cyclistic_data.202307-divvy-tripdata`
+
+WHERE
+  ride_id is NOT NULL
+  AND rideable_type is NOT NULL
+  AND started_at is NOT NULL
+  AND ended_at is NOT NULL
+  AND start_station_name is NOT NULL
+  AND start_station_id is NOT NULL
+  AND end_station_name is NOT NULL
+  AND end_station_id is NOT NULL
+  AND start_lat is NOT NULL
+  AND start_lng is NOT NULL
+  AND end_lat is NOT NULL
+  AND end_lng is NOT NULL
+  AND member_casual is NOT NULL
+  AND date_diff(ended_at, started_at, minute) > 0
+
+UNION ALL
+
+SELECT
+  TRIM(ride_id) AS ride_id,
+  TRIM(rideable_type) AS rideable_type,
+  CAST(started_at AS datetime) AS started_at,
+  CAST(ended_at AS datetime) AS ended_at,
+  TRIM(start_station_name) AS start_station_name,
+  CAST(start_station_id AS string),
+  TRIM(end_station_name) AS end_station_name,
+  CAST(end_station_id AS string),
+  TRIM(member_casual) AS member_casual,
+  date_diff(ended_at, started_at, minute) AS ride_length_in_mins,
+  EXTRACT(DAYOFWEEK FROM started_at) AS day_of_week,
+  EXTRACT(MONTH FROM started_at) AS month
+
+FROM
+  `bing-xuans-project.cyclistic_data.202308-divvy-tripdata`
+
+WHERE
+  ride_id is NOT NULL
+  AND rideable_type is NOT NULL
+  AND started_at is NOT NULL
+  AND ended_at is NOT NULL
+  AND start_station_name is NOT NULL
+  AND start_station_id is NOT NULL
+  AND end_station_name is NOT NULL
+  AND end_station_id is NOT NULL
+  AND start_lat is NOT NULL
+  AND start_lng is NOT NULL
+  AND end_lat is NOT NULL
+  AND end_lng is NOT NULL
+  AND member_casual is NOT NULL
+  AND date_diff(ended_at, started_at, minute) > 0
+
+UNION ALL
+
+SELECT
+  TRIM(ride_id) AS ride_id,
+  TRIM(rideable_type) AS rideable_type,
+  CAST(started_at AS datetime) AS started_at,
+  CAST(ended_at AS datetime) AS ended_at,
+  TRIM(start_station_name) AS start_station_name,
+  CAST(start_station_id AS string),
+  TRIM(end_station_name) AS end_station_name,
+  CAST(end_station_id AS string),
+  TRIM(member_casual) AS member_casual,
+  date_diff(ended_at, started_at, minute) AS ride_length_in_mins,
+  EXTRACT(DAYOFWEEK FROM started_at) AS day_of_week,
+  EXTRACT(MONTH FROM started_at) AS month
+
+FROM
+  `bing-xuans-project.cyclistic_data.202309-divvy-tripdata`
+
+WHERE
+  ride_id is NOT NULL
+  AND rideable_type is NOT NULL
+  AND started_at is NOT NULL
+  AND ended_at is NOT NULL
+  AND start_station_name is NOT NULL
+  AND start_station_id is NOT NULL
+  AND end_station_name is NOT NULL
+  AND end_station_id is NOT NULL
+  AND start_lat is NOT NULL
+  AND start_lng is NOT NULL
+  AND end_lat is NOT NULL
+  AND end_lng is NOT NULL
+  AND member_casual is NOT NULL
+  AND date_diff(ended_at, started_at, minute) > 0
+
+UNION ALL
+
+SELECT
+  TRIM(ride_id) AS ride_id,
+  TRIM(rideable_type) AS rideable_type,
+  CAST(started_at AS datetime) AS started_at,
+  CAST(ended_at AS datetime) AS ended_at,
+  TRIM(start_station_name) AS start_station_name,
+  CAST(start_station_id AS string),
+  TRIM(end_station_name) AS end_station_name,
+  CAST(end_station_id AS string),
+  TRIM(member_casual) AS member_casual,
+  date_diff(ended_at, started_at, minute) AS ride_length_in_mins,
+  EXTRACT(DAYOFWEEK FROM started_at) AS day_of_week,
+  EXTRACT(MONTH FROM started_at) AS month
+
+FROM
+  `bing-xuans-project.cyclistic_data.202310-divvy-tripdata`
+
+WHERE
+  ride_id is NOT NULL
+  AND rideable_type is NOT NULL
+  AND started_at is NOT NULL
+  AND ended_at is NOT NULL
+  AND start_station_name is NOT NULL
+  AND start_station_id is NOT NULL
+  AND end_station_name is NOT NULL
+  AND end_station_id is NOT NULL
+  AND start_lat is NOT NULL
+  AND start_lng is NOT NULL
+  AND end_lat is NOT NULL
+  AND end_lng is NOT NULL
+  AND member_casual is NOT NULL
+  AND date_diff(ended_at, started_at, minute) > 0
+
+UNION ALL
+
+SELECT
+  TRIM(ride_id) AS ride_id,
+  TRIM(rideable_type) AS rideable_type,
+  CAST(started_at AS datetime) AS started_at,
+  CAST(ended_at AS datetime) AS ended_at,
+  TRIM(start_station_name) AS start_station_name,
+  CAST(start_station_id AS string),
+  TRIM(end_station_name) AS end_station_name,
+  CAST(end_station_id AS string),
+  TRIM(member_casual) AS member_casual,
+  date_diff(ended_at, started_at, minute) AS ride_length_in_mins,
+  EXTRACT(DAYOFWEEK FROM started_at) AS day_of_week,
+  EXTRACT(MONTH FROM started_at) AS month
+
+FROM
+  `bing-xuans-project.cyclistic_data.202311-divvy-tripdata`
+
+WHERE
+  ride_id is NOT NULL
+  AND rideable_type is NOT NULL
+  AND started_at is NOT NULL
+  AND ended_at is NOT NULL
+  AND start_station_name is NOT NULL
+  AND start_station_id is NOT NULL
+  AND end_station_name is NOT NULL
+  AND end_station_id is NOT NULL
+  AND start_lat is NOT NULL
+  AND start_lng is NOT NULL
+  AND end_lat is NOT NULL
+  AND end_lng is NOT NULL
+  AND member_casual is NOT NULL
+  AND date_diff(ended_at, started_at, minute) > 0
+
+UNION ALL
+
+SELECT
+  TRIM(ride_id) AS ride_id,
+  TRIM(rideable_type) AS rideable_type,
+  CAST(started_at AS datetime) AS started_at,
+  CAST(ended_at AS datetime) AS ended_at,
+  TRIM(start_station_name) AS start_station_name,
+  CAST(start_station_id AS string),
+  TRIM(end_station_name) AS end_station_name,
+  CAST(end_station_id AS string),
+  TRIM(member_casual) AS member_casual,
+  date_diff(ended_at, started_at, minute) AS ride_length_in_mins,
+  EXTRACT(DAYOFWEEK FROM started_at) AS day_of_week,
+  EXTRACT(MONTH FROM started_at) AS month
+
+FROM
+  `bing-xuans-project.cyclistic_data.202312-divvy-tripdata`
+
+WHERE
+  ride_id is NOT NULL
+  AND rideable_type is NOT NULL
+  AND started_at is NOT NULL
+  AND ended_at is NOT NULL
+  AND start_station_name is NOT NULL
+  AND start_station_id is NOT NULL
+  AND end_station_name is NOT NULL
+  AND end_station_id is NOT NULL
+  AND start_lat is NOT NULL
+  AND start_lng is NOT NULL
+  AND end_lat is NOT NULL
+  AND end_lng is NOT NULL
+  AND member_casual is NOT NULL
+  AND date_diff(ended_at, started_at, minute) > 0;
