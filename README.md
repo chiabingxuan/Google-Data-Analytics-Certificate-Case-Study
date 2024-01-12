@@ -107,7 +107,7 @@ The following data visualisations were produced by RStudio.
 The line graph below shows the number of rides over the last 12 months, for both casual riders and annual members:
 
 <p align="center">
-  <img src="https://github.com/chiabingxuan/Google-Data-Analytics-Certificate-Case-Study/assets/155958349/57c11f34-947b-4f13-adef-9e3f3b64c07e">
+  <img src="https://github.com/chiabingxuan/Google-Data-Analytics-Certificate-Case-Study/assets/155958349/57c11f34-947b-4f13-adef-9e3f3b64c07e"/>
 </p>
 
 **Key Findings**: For the last 12 months, the number of rides has followed a similar trend for both casual riders and annual members, increasing from January 2023 to a maximum at around July / August 2023, before decreasing from July / August 2023 to December 2023. The peak number of rides corresponds to the summer break in Chicago - it may be that more casual riders and annual members choose to ride Cyclistic bikes during that holiday period. The low ridership at both the start and end of the year could be due to the lack of holidays in that period of time, meaning that riders have less time to ride Cyclistic bikes for leisure.
@@ -115,7 +115,7 @@ The line graph below shows the number of rides over the last 12 months, for both
 The bar chart below shows the number of rides on each day of the week (1 = Sunday, 7 = Saturday), for both casual riders and annual members:
 
 <p align="center">
-  <img src="https://github.com/chiabingxuan/Google-Data-Analytics-Certificate-Case-Study/assets/155958349/8abab1c3-519c-4dce-b4f4-a562dfb06279">
+  <img src="https://github.com/chiabingxuan/Google-Data-Analytics-Certificate-Case-Study/assets/155958349/8abab1c3-519c-4dce-b4f4-a562dfb06279"/>
 </p>
 
 **Key Findings**: In this case, there is a clear difference between the riding patterns among casual riders and annual members. Among casual riders, the number of rides are higher during the weekend, and lower during weekdays. However, among annual members, the number of rides are lower during the weekend, and higher during weekdays. It is possible that casual riders mainly cycle for recreational purposes at the end of the week, while annual members generally use Cyclistic bikes to commute to school or work during the week. This is logical, as riders who cycle more regularly (ie. to school or work) are usually more inclined to commit to Cyclistic, in the form of annual memberships. This insight suggests that casual riders who cycle on a regular basis (ie. during weekdays) are most likely to purchase memberships. While this target group may be relatively smaller, it is still significant.
@@ -123,8 +123,11 @@ The bar chart below shows the number of rides on each day of the week (1 = Sunda
 The bar charts below show the 20 most popular starting stations, among both casual riders and annual members:
 
 <p align="center">
-  <img src="https://github.com/chiabingxuan/Google-Data-Analytics-Certificate-Case-Study/assets/155958349/ba20479a-9416-4ac7-8a8f-a585e79846b2" width="400" />
-  <img src="https://github.com/chiabingxuan/Google-Data-Analytics-Certificate-Case-Study/assets/155958349/fb5a1632-7b0b-4096-add5-ea59cf19a6e7" width="400" /> 
+  <img src="https://github.com/chiabingxuan/Google-Data-Analytics-Certificate-Case-Study/assets/155958349/ba20479a-9416-4ac7-8a8f-a585e79846b2"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/chiabingxuan/Google-Data-Analytics-Certificate-Case-Study/assets/155958349/fb5a1632-7b0b-4096-add5-ea59cf19a6e7"/> 
 </p>
 
 **Key Findings**: Note that casual riders most frequently start their rides along Grand Ave, Dusable Lake Shore Drive, Michigan Ave and Clark St. On the other hand, annual members are more likely to begin their rides along Kingsbury St, Clinton St, Wells St and Elm St. This suggests that Cyclistic bike usage is most pronounced in these areas. Despite these differences, there are also some commonalities between the two bar charts. The following are starting stations which are popular among both casual riders and annual members:
@@ -139,8 +142,8 @@ The bar charts below show the 20 most popular starting stations, among both casu
 The pie charts below show the proportion of rideable types used, for both casual riders and annual members:
 
 <p align="center">
-  <img src="https://github.com/chiabingxuan/Google-Data-Analytics-Certificate-Case-Study/assets/155958349/f3819125-5361-4a6f-b82e-61cab218a0f4" width="400" />
-  <img src="https://github.com/chiabingxuan/Google-Data-Analytics-Certificate-Case-Study/assets/155958349/caefd84f-c100-4bf6-8051-22bf225e558c" width="400" /> 
+  <img src="https://github.com/chiabingxuan/Google-Data-Analytics-Certificate-Case-Study/assets/155958349/f3819125-5361-4a6f-b82e-61cab218a0f4" width="400"/>
+  <img src="https://github.com/chiabingxuan/Google-Data-Analytics-Certificate-Case-Study/assets/155958349/caefd84f-c100-4bf6-8051-22bf225e558c" width="400"/> 
 </p>
 
 **Key Findings**: For both casual riders and annual members, classic bikes are the most popular cycling option, followed by electric bikes. The proportion of usage of these two bikes are relatively similar, though it can be argued that members are comparatively more likely to favour classic bikes. A notable detail is that while a small percentage of casual riders use docked bikes, zero annual members choose this mode of cycling, which seems suspicious. In a real-life scenario, I would probably first run these findings through my team and manager, so as to confirm that my analysis is indeed correct.
@@ -148,7 +151,7 @@ The pie charts below show the proportion of rideable types used, for both casual
 The density curves below show the distribution of ride length, for both casual riders and annual members:
 
 <p align="center">
-  <img src="https://github.com/chiabingxuan/Google-Data-Analytics-Certificate-Case-Study/assets/155958349/bf01c1ff-cc24-4e91-98a9-23f6202d84a4">
+  <img src="https://github.com/chiabingxuan/Google-Data-Analytics-Certificate-Case-Study/assets/155958349/bf01c1ff-cc24-4e91-98a9-23f6202d84a4"/>
 </p>
 
 **Key Findings**: The distributions of ride length for both casual riders and annual members peak at ride lengths under 10 minutes and stretch off at longer ride lengths. However, the spread of ride lengths for casual riders is larger than that for annual members. Moreover, the peak density for casual riders is to the right of the peak density for annual members. Hence, ride lengths are generally longer among casual riders, compared to annual members.
