@@ -1,0 +1,22 @@
+SELECT
+  day_of_week,
+  COUNT(DISTINCT CASE
+        WHEN member_casual = 'casual'
+        THEN ride_id
+        ELSE NULL
+        END) AS number_of_rides_casual,
+  COUNT(DISTINCT CASE
+        WHEN member_casual = 'member'
+        THEN ride_id
+        ELSE NULL
+        END) AS number_of_rides_member,      
+  COUNT(DISTINCT ride_id) AS number_of_rides_total
+
+FROM
+  `bing-xuans-project.cyclistic_data.Cyclistic Data Cleaned`
+
+GROUP BY
+  day_of_week
+
+ORDER BY
+  day_of_week;
