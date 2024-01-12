@@ -106,13 +106,21 @@ The following data visualisations were produced by RStudio.
 
 The line graph below shows the number of rides over the last 12 months, for both casual riders and annual members:
 
+![Number of Rides per Month](https://github.com/chiabingxuan/Google-Data-Analytics-Certificate-Case-Study/assets/155958349/57c11f34-947b-4f13-adef-9e3f3b64c07e)
+
 **Key Findings**: For the last 12 months, the number of rides has followed a similar trend for both casual riders and annual members, increasing from January 2023 to a maximum at around July / August 2023, before decreasing from July / August 2023 to December 2023. The peak number of rides corresponds to the summer break in Chicago - it may be that more casual riders and annual members choose to ride Cyclistic bikes during that holiday period. The low ridership at both the start and end of the year could be due to the lack of holidays in that period of time, meaning that riders have less time to ride Cyclistic bikes for leisure.
 
 The bar chart below shows the number of rides on each day of the week (1 = Sunday, 7 = Saturday), for both casual riders and annual members:
 
+![Number of Rides by Day of Week](https://github.com/chiabingxuan/Google-Data-Analytics-Certificate-Case-Study/assets/155958349/8abab1c3-519c-4dce-b4f4-a562dfb06279)
+
 **Key Findings**: In this case, there is a clear difference between the riding patterns among casual riders and annual members. Among casual riders, the number of rides are higher during the weekend, and lower during weekdays. However, among annual members, the number of rides are lower during the weekend, and higher during weekdays. It is possible that casual riders mainly cycle for recreational purposes at the end of the week, while annual members generally use Cyclistic bikes to commute to school or work during the week. This is logical, as riders who cycle more regularly (ie. to school or work) are usually more inclined to commit to Cyclistic, in the form of annual memberships. This insight suggests that casual riders who cycle on a regular basis (ie. during weekdays) are most likely to purchase memberships. While this target group may be relatively smaller, it is still significant.
 
 The bar charts below show the 20 most popular starting stations, among both casual riders and annual members:
+
+|                                     |                                     |
+| ----------------------------------- | ----------------------------------- |
+| ![Most Popular Starting Stations (Casual)](https://github.com/chiabingxuan/Google-Data-Analytics-Certificate-Case-Study/assets/155958349/ca4dfe04-be5f-418b-9000-e643fb3207d3) | ![Most Popular Starting Stations (Member)](https://github.com/chiabingxuan/Google-Data-Analytics-Certificate-Case-Study/assets/155958349/6b1cd9f8-0321-4931-8826-4dea7b1d9e82) |
 
 **Key Findings**: Note that casual riders most frequently start their rides along Grand Ave, Dusable Lake Shore Drive, Michigan Ave and Clark St. On the other hand, annual members are more likely to begin their rides along Kingsbury St, Clinton St, Wells St and Elm St. This suggests that Cyclistic bike usage is most pronounced in these areas. Despite these differences, there are also some commonalities between the two bar charts. The following are starting stations which are popular among both casual riders and annual members:
 
