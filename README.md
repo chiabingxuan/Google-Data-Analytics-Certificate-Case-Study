@@ -139,8 +139,8 @@ The bar charts below show the 20 most popular starting stations, among both casu
 The pie charts below show the proportion of rideable types used, for both casual riders and annual members:
 
 <p align="center">
-  <img src="https://github.com/chiabingxuan/Google-Data-Analytics-Certificate-Case-Study/assets/155958349/f3819125-5361-4a6f-b82e-61cab218a0f4" width="500" />
-  <img src="https://github.com/chiabingxuan/Google-Data-Analytics-Certificate-Case-Study/assets/155958349/caefd84f-c100-4bf6-8051-22bf225e558c" width="500" /> 
+  <img src="https://github.com/chiabingxuan/Google-Data-Analytics-Certificate-Case-Study/assets/155958349/f3819125-5361-4a6f-b82e-61cab218a0f4" width="450" />
+  <img src="https://github.com/chiabingxuan/Google-Data-Analytics-Certificate-Case-Study/assets/155958349/caefd84f-c100-4bf6-8051-22bf225e558c" width="450" /> 
 </p>
 
 **Key Findings**: For both casual riders and annual members, classic bikes are the most popular cycling option, followed by electric bikes. The proportion of usage of these two bikes are relatively similar, though it can be argued that members are comparatively more likely to favour classic bikes. A notable detail is that while a small percentage of casual riders use docked bikes, zero annual members choose this mode of cycling, which seems suspicious. In a real-life scenario, I would probably first run these findings through my team and manager, so as to confirm that my analysis is indeed correct.
