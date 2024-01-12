@@ -1,13 +1,6 @@
-# Google-Data-Analytics-Certificate-Case-Study
----
-title: 'Cyclistic: Converting Casual Riders into Annual Members to Boost Profits'
-author: "Chia Bing Xuan"
-date: '2024-01-08'
-output:
-  html_document: default
----
+# Cyclistic: Converting Casual Riders into Annual Members to Boost Profits
 
-# Introduction
+## Introduction
 
 ### Details on Bike-Share Company
 
@@ -33,7 +26,7 @@ On this note, the statement for our business task is as follows: **Analyse the p
 * **Director of Marketing / Manager**: Person whom I am to report to most frequently
 * **Cyclistic Executive Team**: Decides whether or not to implement the marketing program suggested by the Analytics Team
 
-# Acquisition of Data
+## Acquisition of Data
 
 ### Introduction to the Data
 
@@ -70,7 +63,7 @@ The data given appeared to be **credible and from a good data source**:
 * **Current**: Data was from the last 12 months, thus being sufficiently recent
 * **Cited**: Data was created and managed by Cyclistic itself, which is the most reliable organisation for our business task (to boost Cyclistic's profits). Data was also current, as justified above
 
-# Changelog for Data Cleaning
+## Changelog for Data Cleaning
 
 **Date: 10 January 2024**
 
@@ -93,7 +86,7 @@ Subsequently, `UNION ALL` was used to gather all the cleaned data into one table
 
 **Room for improvement**: For each CSV file, more cleaning should have been done. For instance, I noticed that the number of distinct values in **start_station_name** was very slightly different from the number of distinct values in **start_station_id**, which should not be the case. In addition, the number of distinct values in **start_station_name** was observed to be greater than 692, which was the actual number of stations owned by Cyclistic, as mentioned in the introduction.
 
-# Data Analysis
+## Data Analysis
 
 Using SQL on BigQuery, I sieved out 5 tables (CSV files) which were to be used for data analysis:
 
@@ -107,7 +100,7 @@ Note that **Cyclistic Data Cleaned.csv** was also used for data analysis.
 
 **Room for improvement**: In the next step where I used RStudio to produce data visualisations from the tables, I realised that the formatting of these tables was not as convenient as I would have liked. Hence, I used some spreadsheet techniques to improve the formatting, allowing me to access the data using RStudio more effectively. In hindsight, I now know that the SQL queries which I had written were not as optimal as they could have been. Moving forward, I will look to improve on this aspect in future projects.
 
-# Data Visualisations
+## Data Visualisations
 
 The following data visualisations were produced by RStudio.
 
@@ -140,7 +133,7 @@ The density curves below show the distribution of ride length, for both casual r
 
 **Key Findings**: The distributions of ride length for both casual riders and annual members peak at ride lengths under 10 minutes and stretch off at longer ride lengths. However, the spread of ride lengths for casual riders is larger than that for annual members. Moreover, the peak density for casual riders is to the right of the peak density for annual members. Hence, ride lengths are generally longer among casual riders, compared to annual members.
 
-# Recommendations
+## Recommendations
 
 Below are 3 suggestions that can be implemented in Cyclistic's marketing strategy, in order to convert existing casual riders to annual members:
 
@@ -148,7 +141,7 @@ Below are 3 suggestions that can be implemented in Cyclistic's marketing strateg
 * **Emphasise on the use of Cyclistic bikes during weekdays**: As mentioned, it is imperative that we turn our attention to casual riders who cycle during weekdays, because they are more likely to switch to annual memberships. Therefore, we should tailor our marketing strategy to their interests and needs, focusing on promoting the use of Cyclistic services during weekdays. By raising awareness on how Cyclistic bikes can be integrated seamlessly throughout a rider's week, casual riders in this target group can be more driven to continue riding during weekdays, and may even decide to sustain this habit by taking up long-term annual memberships. Not only that, this may even have an effect on casual riders who had not been cycling much during weekdays prior to our marketing, encouraging them to start doing so. By creating a culture of frequent riding, there is a good chance for casual riders to commit to annual memberships in time to come.
 * **Marketing location**: We can ramp up our marketing efforts, such as through posters and billboards, in specific areas. Firstly, we should prioritising promoting our services in regions near stations that are popular among both casual riders and annual members, such as the 4 stations identified in the table above. This has the effect of reaching the widest target audience, encouraging more casual riders to convert to annual members, whilst also retaining a larger number of annual members. Simultaneously, we can also increase advertising in other areas that are popular among casual riders (eg. Grand Ave, Dusable Lake Shore Drive, Michigan Ave and Clark St). This would maximise our outreach, getting in touch with as many existing casual riders as possible.
 
-# Conclusion
+## Conclusion
 
 Below are a few ideas to note moving forward:
 
