@@ -123,8 +123,8 @@ The bar chart below shows the number of rides on each day of the week (1 = Sunda
 The bar charts below show the 20 most popular starting stations, among both casual riders and annual members:
 
 <p align="center">
-  <img src="https://github.com/chiabingxuan/Google-Data-Analytics-Certificate-Case-Study/assets/155958349/ba20479a-9416-4ac7-8a8f-a585e79846b2" width="400" height="200" />
-  <img src="https://github.com/chiabingxuan/Google-Data-Analytics-Certificate-Case-Study/assets/155958349/fb5a1632-7b0b-4096-add5-ea59cf19a6e7" width="400" height="200" /> 
+  <img src="https://github.com/chiabingxuan/Google-Data-Analytics-Certificate-Case-Study/assets/155958349/ba20479a-9416-4ac7-8a8f-a585e79846b2" width="400" height="250" />
+  <img src="https://github.com/chiabingxuan/Google-Data-Analytics-Certificate-Case-Study/assets/155958349/fb5a1632-7b0b-4096-add5-ea59cf19a6e7" width="400" height="250" /> 
 </p>
 
 **Key Findings**: Note that casual riders most frequently start their rides along Grand Ave, Dusable Lake Shore Drive, Michigan Ave and Clark St. On the other hand, annual members are more likely to begin their rides along Kingsbury St, Clinton St, Wells St and Elm St. This suggests that Cyclistic bike usage is most pronounced in these areas. Despite these differences, there are also some commonalities between the two bar charts. The following are starting stations which are popular among both casual riders and annual members:
