@@ -143,6 +143,10 @@ The pie charts below show the proportion of rideable types used, for both casual
 
 The density curves below show the distribution of ride length, for both casual riders and annual members:
 
+<p align="center">
+  <img src="https://github.com/chiabingxuan/Google-Data-Analytics-Certificate-Case-Study/assets/155958349/bf01c1ff-cc24-4e91-98a9-23f6202d84a4">
+</p>
+
 **Key Findings**: The distributions of ride length for both casual riders and annual members peak at ride lengths under 10 minutes and stretch off at longer ride lengths. However, the spread of ride lengths for casual riders is larger than that for annual members. Moreover, the peak density for casual riders is to the right of the peak density for annual members. Hence, ride lengths are generally longer among casual riders, compared to annual members.
 
 ## Recommendations
