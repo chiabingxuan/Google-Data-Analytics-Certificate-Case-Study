@@ -119,8 +119,8 @@ The bar chart below shows the number of rides on each day of the week (1 = Sunda
 The bar charts below show the 20 most popular starting stations, among both casual riders and annual members:
 
 <p float="left">
-  <img src="https://github.com/chiabingxuan/Google-Data-Analytics-Certificate-Case-Study/assets/155958349/ba20479a-9416-4ac7-8a8f-a585e79846b2" width="500" height="400" />
-  <img src="https://github.com/chiabingxuan/Google-Data-Analytics-Certificate-Case-Study/assets/155958349/fb5a1632-7b0b-4096-add5-ea59cf19a6e7" width="500" height="400" /> 
+  <img src="https://github.com/chiabingxuan/Google-Data-Analytics-Certificate-Case-Study/assets/155958349/ba20479a-9416-4ac7-8a8f-a585e79846b2" width="500" height="300" />
+  <img src="https://github.com/chiabingxuan/Google-Data-Analytics-Certificate-Case-Study/assets/155958349/fb5a1632-7b0b-4096-add5-ea59cf19a6e7" width="500" height="300" /> 
 </p>
 
 
