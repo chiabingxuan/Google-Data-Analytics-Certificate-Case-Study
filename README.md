@@ -23,7 +23,7 @@ On this note, the statement for our business task is as follows: **Analyse the p
 ### Key Stakeholders
 
 * **Cyclistic Marketing Analytics Team**: The Data Analytics team that I am a part of
-* **Director of Marketing / Manager**: Person whom I am to report to most frequently
+* **Director of Marketing / Manager**: Person to whom I am to report most frequently
 * **Cyclistic Executive Team**: Decides whether or not to implement the marketing program suggested by the Analytics Team
 
 ## Acquisition of Data
